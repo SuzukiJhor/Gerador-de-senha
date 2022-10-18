@@ -24,7 +24,6 @@ const gerenatePassword = () => {
 }
 
 const copyPassword = () => {
-    console.log(novaSenha)
     navigator.clipboard.writeText(novaSenha);
     alert('Senha copiada com sucesso!')
 }
